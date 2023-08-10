@@ -35,10 +35,10 @@ def execute_single_query(query):
 
 # Streamlit UI
 def main():
-    st.title("Type queries ; seperated to execute all in paralell")
+    st.title("Type queries ; separated to execute all in parallel")
 
     # Add link to your YouTube channel
-    st.markdown("[Visit my YouTube channe for more details](https://bit.ly/atozaboutdata)")
+    st.markdown("[Visit my YouTube channel for more details](https://bit.ly/atozaboutdata)")
 
     # Text area to input queries
     queries = st.text_area("Enter your queries (separated by ;) :", height=200)
