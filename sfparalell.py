@@ -37,7 +37,6 @@ def execute_single_query(query):
 def main():
     st.title("Type queries ; separated to execute all in parallel")
 
-    # Add link to your YouTube channel
     st.markdown("[Visit my YouTube channel for more details](https://bit.ly/atozaboutdata)")
 
     # Text area to input queries
